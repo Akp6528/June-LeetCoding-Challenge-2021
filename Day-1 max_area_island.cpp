@@ -27,7 +27,6 @@ public:
             
             for(int j=0; j<c; j++) {
                 int cnt = 0;
-                
                 if(grid[i][j] == 1) {
                     explo(grid, i, j, cnt);
                     max_area = max(max_area, cnt);
